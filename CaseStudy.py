@@ -139,7 +139,7 @@ def run_opt_only():
     except ValueError:
         messagebox.showerror("Invalid Input", "Invalid frames or reference string.")
 
-# Generate Reference String
+# Reference String
 def get_reference_string():
     input_str = entry_ref_string.get().strip()
     if input_str:
